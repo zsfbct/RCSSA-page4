@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+
+    <body id="page-top" class="index">
+
+    {% include header.html %}
+    {% include team.html %}
+    {% include techteam.html %}
+
+    <script>
+    function myFunction() {
+        document.getElementById("team").style.display = "none";
+        document.getElementById("techteam").style.display = "block";
+    }
+    function myFunction_1() {
+        document.getElementById("team").style.display = "block";
+        document.getElementById("techteam").style.display = "none";
+    }
+    </script>
+    </body>
+</html>
+
